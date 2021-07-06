@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+*::selection{
+    background-color: red;
+}
+ul, li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+
+    background-color:burlywood ;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__inner{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 100px;
+    color: darkcyan;
+    text-shadow: 5px 5px 10px blue;
+}
